@@ -1,0 +1,292 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* color: #A52424; */
+}
+
+header .menu{
+    display: flex;
+    width: 534px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;    
+    justify-content: space-between;
+}
+
+/* .wrapper */
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    /* border: 2px solid green; */
+}
+
+.logo{
+    padding: 16px 0;    
+}
+.tell{
+    line-height: 84px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #A52424;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+} 
+
+.text{
+    padding-top: 110px;
+}
+
+.text span{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+} 
+
+.btn{
+    border: 1px solid #A52424;
+    color: #A52424;
+    background: #fff;
+    padding: 20px 40px;
+    font-size: 18px;
+    margin-top: 60px; 
+    cursor: pointer;
+}
+
+.greating{
+    display: flex;  
+    padding-bottom: 150px;  
+}
+
+/* MAIN */
+/* ABOUT ME */
+.about__me{
+    display: flex;
+    position: relative;
+    height: 800px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    padding-bottom: 45px;
+}
+
+.shadow__1{
+    /* position: absolute;     */
+    width: 336px;
+    height: 561px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.1);
+    margin-right: 35px; 
+}
+
+.julia_2{
+    position: relative;
+    left: 100px;
+    top:50px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 22px;
+    padding: 50px 0 0;
+    color: #A52424;
+}
+
+.about__me__1{
+    width: 40%;
+}
+.about__me__2{
+    width: 60%;
+    display: block;
+    padding: 20px;
+}
+
+p{
+    padding-top: 21px;
+}
+
+.shadow__2{
+    width: 567px;
+    height: 330px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+}
+
+.shadow__2 img{
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
+
+.gerl1{
+    background-image: url(../images/gerl1.jpg);
+}
+.gerl2{
+    background-image: url(../images/gerl2.jpg);
+}
+.gerl3{
+    background-image: url(../images/gerl3.jpg);
+}
+
+.carts li{
+    padding-top: 600px;
+}
+
+.gerl{
+    /* border: 2px solid green;  */
+    background-repeat: no-repeat;    
+    width: 377px;    
+}
+
+.gerl{
+    /* border: 2px solid green;  */
+    width: 377px;    
+}
+
+b{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio{
+    padding-bottom: 150px;
+}
+
+
+/* SECTION PRICE */
+
+.price{
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 290px;
+    width: 510px;
+    /* border: 2px solid green;  */
+}
+
+.price h3{
+    text-align: center;
+    padding: 30px 0;
+}
+.foto{
+    background-image: url(../images/priceFoto.jpg);   
+}
+
+.video{
+    background-image: url(../images/priceVideo.jpg); 
+    background-size: 305px;
+}
+
+.prices{
+    padding-bottom:150px;
+}
+
+.prices li{
+    padding-top: 300px;
+}
+
+.timeofwork{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-b{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.uah{
+    padding: 0 40px;
+}
+
+.uah span{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.btn-price{
+    margin-left: 40px;
+    padding: 20px 48px;
+}
+
+/* SECTION FORMA */
+.forma{
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.foto-forma{
+    display: flex;
+    padding-top: 70px;
+}
+
+.julia5{
+    position: relative;
+    top: -45px;
+    left: -25px;
+}
+
+.input{
+    width: 446px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.btn-form{
+    width: 476px; 
+    margin: 20px;   
+}
+
+textarea{
+    resize: none;
+    width: 590px;  
+    height: 220px;
+    margin: 20px;    
+    padding: 30px 20px 20px 45px;
+}
+
+textarea::placeholder{
+    font-size: 14px;
+    color: #696969;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FOOTER */
+footer .menu{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .tell{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: space-between;
+}
